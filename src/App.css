@@ -60,7 +60,7 @@ img{
 @media (prefers-reduced-motion: no-preference) {
   .logo-canto {
    
-    animation:hue-rotate 6s linear infinite
+    animation:hue-rotate 16s linear infinite
   }
 }
 
