@@ -9,7 +9,7 @@ function App() {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            2beauty Calendary
+            Agenda Hair
           </p>
           <a
             className="App-link"

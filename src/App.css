@@ -4,12 +4,24 @@ max-height: 20%;
 }
 .App {
   text-align: center;
+    
 }
 
+p{
+color: #7B68EE;
+font-family: 'Tourney', cursive;
+font-size: 700;
+max-width: 100%;
+}
+img{
+  max-width: 100%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
   border-radius: 50%;
+  border: #1C1C1C;
+  
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -19,7 +31,7 @@ max-height: 20%;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #FFF0F5;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
