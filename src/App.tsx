@@ -15,11 +15,14 @@ function App() {
       <main className="conteudo">
         <div>
           <form>
-            <p>Login:</p>
+            <p className="pf">Login:</p>
             <input type="text" name="Login" id="Login" />
-            <p>Senha:</p>
+            <p className="pf">Senha:</p>
             <input type="password" name="Senha" id="pass" />
-
+            <div><br></br></div>
+            <button id="botao">
+              Entrar
+            </button>
           </form>
         </div>
 
