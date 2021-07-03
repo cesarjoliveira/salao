@@ -23,8 +23,7 @@
   }
 .logo-canto{
   flex: 3;
-
-  background: #fa7f72;
+  background: #fde616ec;
   color: #FFF;
 max-width: 20%;
   display: flex;
@@ -38,7 +37,7 @@ max-width: 20%;
   }
 
 p{
-color: #5f6362;
+color: #47d3b0;
 font-family: 'Tourney', cursive;
 max-width: 100%;
 font-weight:  bold;
