@@ -13,7 +13,11 @@ function App() {
       </aside>
       <main className="conteudo">
         <div>
-          <p>a</p>
+          <form>
+            <input type="text" name="Login" id="Login" />
+            <input type="password" name="Senha" id="pass" />
+
+          </form>
         </div>
 
       </main>
