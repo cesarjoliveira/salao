@@ -45,7 +45,7 @@ font-weight:  bold;
 }
 @media (prefers-reduced-motion: no-preference) {
   .agenda {
-    animation: hue-rotation infinite 20s linear;
+    animation:hue-rotate 6s linear infinite
   }
 }
 img{
