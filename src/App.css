@@ -1,17 +1,52 @@
+#geral{
+  display: flex;
+  align-items: stretch;
+  height: 100vh;
+}
+
+.conteudo{
+  background:#5f6362 ;
+  flex: 15;
+
+  padding: 0 32px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 80%;
+  align-items: stretch;
+  text-align: center;
+  }
 .logo-canto{
-max-width: 15%;
-max-height: 20%;
+  flex: 3;
+
+  background: #fa7f72;
+  color: #FFF;
+max-width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  padding: 120px 80px;
 }
 .App {
   text-align: center;
-    
-}
+  }
 
 p{
-color: #7B68EE;
+color: #5f6362;
 font-family: 'Tourney', cursive;
-font-size: 700;
 max-width: 100%;
+font-weight:  bold;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .agenda {
+    animation: hue-rotation infinite 20s linear;
+  }
 }
 img{
   max-width: 100%;
@@ -21,8 +56,7 @@ img{
   pointer-events: none;
   border-radius: 50%;
   border: #1C1C1C;
-  
-}
+  }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -31,7 +65,7 @@ img{
 }
 
 .App-header {
-  background-color: #FFF0F5;
+  background-color: #fa7f72;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -53,3 +87,6 @@ img{
     transform: rotate(360deg);
   }
 }
+@keyframes hue-rotate{
+  0%{filter:hue-rotate(0)}to{filter:hue-rotate(-360deg)}}
+
