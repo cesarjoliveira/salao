@@ -71,7 +71,7 @@ img{
 
 
 
-@-webkit-keyframes App-logo-spin {
+@keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
@@ -79,6 +79,6 @@ img{
     transform: rotate(360deg);
   }
 }
-@-webkit-keyframes hue-rotate{
+@keyframes hue-rotate{
   0%{filter:hue-rotate(0)}to{filter:hue-rotate(-360deg)}}
 
