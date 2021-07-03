@@ -5,7 +5,11 @@
 }
 
 .conteudo{
-  background:#5f6362 ;
+  background-image: url('./teste.jpg');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-blend-mode: unset;
+  background-color: rgb(222, 170, 0);
   flex: 15;
 
   padding: 0 32px;
