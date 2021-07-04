@@ -72,7 +72,8 @@ max-width: 20%;
 
 @media (prefers-reduced-motion: no-preference) {
   .agenda {
-    animation:hue-rotate 6s linear infinite
+    animation:hue-rotate 6s linear infinite;
+    -webkit-animation:App-logo-spin 6s linear infinite;
   }
 }
 img{
@@ -88,18 +89,7 @@ img{
 @media (prefers-reduced-motion: no-preference) {
   .logo-canto {
    
-    animation:hue-rotate 16s linear infinite
+    animation:hue-rotate 16s linear infinite;
+    -webkit-animation:hue-rotate 16s linear infinite;
   }
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-@keyframes hue-rotate{
-  0%{filter:hue-rotate(0)}to{filter:hue-rotate(-360deg)}}
-
